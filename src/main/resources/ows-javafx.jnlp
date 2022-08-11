@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://myhost.com">
+    <information>
+        <title>OWS-JavaFX</title>
+        <vendor>Nick Kao</vendor>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <java version="11*"/>
+        <jar href="jars/jfxapp.jar"/>
+        <jar href="jars/javafx-controls-17.0.0.1-win.jar"/>
+        <jar href="jars/javafx-graphics-17.0.0.1-win.jar"/>
+        <jar href="jars/javafx-base-17.0.0.1-win.jar"/>
+        <jar href="jars/javafx-fxml-17.0.0.1-win.jar"/>
+    </resources>
+    <application-desc main-class="com.karakun.ows.javafx_test.FXAppLauncher"/>
+</jnlp>
